@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B.Tech Timetable</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      padding: 20px;
+      background: #eaf3ff;
+      color: #333;
+    }
+
+    h2, h3 {
+      text-align: center;
+      margin: 5px 0;
+      color: #2c3e50;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 14px;
+      box-shadow: 80px 30px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 10px;
+    }
+
+    th {
+      background: #34495e;
+      color: white;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background: #f4f6f8;
+    }
+
+    tr:hover {
+      background: #eaf3ff;
+    }
+
+    td[rowspan] {
+      background: #ffeaa7;
+      font-weight: bold;
+      color: #2d3436;
+    }
+
+    td[colspan] {
+      background: #dfe6e9;
+    }
+
+    .highlight {
+      background: #fdcb6e !important;
+      font-weight: bold;
+    }
+
+    .subject-lab {
+      background: #81ecec;
+    }
+
+    .subject-training {
+      background: #fab1a0;
+    }
+
+    .subject-core {
+      background: #74b9ff;
+      color: black;
+      
+    }
+  </style>
+</head>
+<body>
+  <h2>ABES Engineering College</h2>
+  <h3>B.Tech Timetable (CSE-DS-A)</h3>
+
+  <table>
+    <tr>
+      <th>DAY</th>
+      <th>8:50-9:40<br>L1</th>
+      <th>9:40-10:30<br>L2</th>
+      <th>10:30-10:40<br>Break</th>
+      <th>10:40-11:30<br>L3</th>
+      <th>11:30-12:20<br>L4</th>
+      <th>12:20-1:10</th>
+      <th>1:10-2:00<br>L5</th>
+      <th>2:00-2:50<br>L6</th>
+      <th>2:50-3:40<br>L7</th>
+      <th>3:40-4:30<br>L8</th>
+    </tr>
+    <tr>
+      <td>Mon</td>
+      <td colspan="2" class="subject-core">DBMS-BCS501-(YB)</td>
+      <td rowspan="5">BREAK</td>
+      <td colspan="2" class="highlight">CSE(DS)-A || QA/LR (Harshit Sharma)</td>
+      <td rowspan="5">LUNCH</td>
+      <td class="subject-core">OOSD-BCS054-(VK)</td>
+      <td colspan="2" class="subject-training">DSA Training - Ms. Priyanka Gupta</td>
+      <td>SS (Dr. Abrity Thakur)</td>
+    </tr>
+    <tr>
+      <td>Tue</td>
+      <td colspan="2" class="subject-training">DSA Training - Ms. Priyanka Gupta</td>
+      <td class="subject-core">DSA Training - Ms. Priyanka Gupta</td>
+      <td>DAA-BCS503-(MP)</td>
+      <td colspan="2">DA-BCDS501-(MS)</td>
+      <td class="subject-core">OOSD-BCS054-(VK)</td>
+      <td>SS (Dr. Abrity Thakur)</td>
+    </tr>
+    <tr>
+      <td>Wed</td>
+      <td>DAA-BCS503-(MP)</td>
+      <td>OOSD-BCS054-(VK)</td>
+      <td colspan="2">Domain Training:<br>DSAIML-LT305 / Cloud-LT-307 / Networking & Cyber Security-LT308</td>
+      <td class="subject-core">AOSC-BCS056-(Shreya)</td>
+      <td>DBMS-BCS501-(YB)</td>
+      <td class="subject-lab">DA Lab-BCDS551-(MS)(VK)</td>
+      <td>DAA-BCS503-(MP)</td>
+    </tr>
+    <tr>
+      <td>Thu</td>
+      <td class="subject-core">AOSC-BCS056-(Shreya)</td>
+      <td>DBMS-BCS501-(YB)</td>
+      <td colspan="2" class="highlight">CSE(DS)-A || VA (LD)</td>
+      <td colspan="2" class="subject-lab">DAA Lab-BCS553-(MP)(DD)</td>
+      <td colspan="2" class="subject-training">FSD Training - Ms. Divya Raj</td>
+    </tr>
+    <tr>
+      <td>Fri</td>
+      <td class="subject-core">AOSC-BCS056-(Shreya)</td>
+      <td>DA-BCDS501-(MS)</td>
+      <td colspan="2" class="subject-training">FSD Training - Ms. Divya Raj</td>
+      <td>DA-BCDS501-(MS)</td>
+      <td>DAA-BCS503-(MP)</td>
+      <td colspan="2" class="subject-lab">DBMS Lab-BCS551-(YB)(DD)</td>
+    </tr>
+  </table>
+</body>
+</html>
